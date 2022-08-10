@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: var(--font-1);
+    font-family: var(--font-2);
 }
 
 span {
@@ -30,10 +30,26 @@ span {
 
 h1,h2,h3,h4 {
     font-family: var(--font-2);
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
 }
+
+#h1unico {
+    margin: 0 auto 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#divjogos h2 {
+    border-top: none;
+}
+
 
 section {
     margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin: 0 auto;
 }
 
 .data, .hora {
@@ -123,11 +139,13 @@ li p.info {
 /* rodapé */
 
 footer {
-    padding: 5px;
+    margin-top: 36px;
+    padding: 10px;
     text-align: center;
     opacity: 0.3;
     transition: 400ms;
     color: white;
+    font-family: var(--font-1);
 }
 
 footer a {
