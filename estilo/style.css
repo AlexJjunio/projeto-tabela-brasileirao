@@ -116,6 +116,10 @@ li p.info {
     justify-content: space-between;
 }
 
+.placar h3 {
+    background-color: transparent;
+}
+
 .time{
     display: flex;
     flex: 2;
